@@ -8,3 +8,7 @@ nav > ul {
 .submenu {
     display: none;
 }
+
+.show {
+    display: block;
+}
