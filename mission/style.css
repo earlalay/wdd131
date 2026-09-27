@@ -9,12 +9,12 @@ body {
 }
 
 body.dark {
-    background-color: black;
+    background-color: #333;
     color: white;
 }
 
 body.dark h2 {
-    color: #4691cb;
+    color: #84c7fa;
 }
 
 div {
