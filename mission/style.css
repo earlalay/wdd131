@@ -8,6 +8,15 @@ body {
     min-width: 60ch;
 }
 
+body.dark {
+    background-color: black;
+    color: white;
+}
+
+body.dark h2 {
+    color: #4691cb;
+}
+
 div {
     margin: 6em 0;
 }
