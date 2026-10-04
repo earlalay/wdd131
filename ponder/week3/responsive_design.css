@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
-  font-family: Roboto, sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 header, main, footer {
@@ -48,10 +48,38 @@ nav a:hover {
     margin: 5px 0;
 }
 
+/* This will shrink and grow with the box it's in. */
+img {
+    max-width: 100%;
+}
+
 footer {
     text-align: center;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 600px) {
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+    nav a {
+        padding: 10px;
+        display: block;
+    }
+    .menu-btn {
+        display: none;
+    }
+}
 
+@media screen and (min-width: 700px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
