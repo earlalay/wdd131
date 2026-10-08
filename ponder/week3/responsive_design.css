@@ -52,7 +52,8 @@ nav a:hover {
 }
 
 .change .bar1 {
-  transform: translate(0, 8px) rotate(-45deg);
+    transform: translate(0, 8px) rotate(-45deg);
+    transition: transform 0.4s;
 }
 
 .change .bar2 {
@@ -60,10 +61,10 @@ nav a:hover {
 }
 
 .change .bar3 {
-  transform: translate(0, -11px) rotate(45deg);
+    transform: translate(0, -11px) rotate(45deg);
+    transition: transform 0.4s;
 }
           
-
 /* This will shrink and grow with the box it's in. */
 img {
     max-width: 100%;
@@ -74,7 +75,7 @@ footer {
 }
 
 @media screen and (min-width: 600px) {
-    nav {
+    nav, .hide {
         display: flex;
         justify-content: center;
     }
