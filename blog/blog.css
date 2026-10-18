@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-nav {
+    color: #910826;
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #910826;
+    padding: 15px;
+}
+
+.filters {
+    justify-self: right;
+}
+
+h1 {
+    justify-self: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+h2 {
+    color: #910826;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.book-info {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+footer {
+    padding: 10px;
+    justify-self: center;
+}
+
+p {
+    padding: 8px;
+}
