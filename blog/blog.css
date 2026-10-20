@@ -5,6 +5,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fdf9f9;
+    min-height: 100vh;
 }
 
 main {
@@ -56,8 +57,8 @@ h2 {
 .book-info {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 20px;
-    padding-top: 0;
+    margin: 20px;
+    margin-top: 0;
 }
 
 img {
@@ -70,7 +71,7 @@ img {
 
 footer {
     padding: 10px;
-    justify-self: center;
+    text-align: center;
 }
 
 .book-hook {
@@ -79,4 +80,40 @@ footer {
 
 p {
     padding: 8px;
+}
+
+@media screen and (min-width: 760px) {
+    main {
+        border-top: none;
+        display: flex;
+        padding: 30px 0;
+        margin: 0;
+        justify-content: center;
+    }
+
+    h1 {
+        padding: 24px;
+    }
+
+    h2 {
+        padding: 20px;
+    }
+
+    .book-hook {
+        padding: 20px;
+    }
+
+    .main-nav {
+        padding: 24px;
+    }
+
+    footer {
+        padding: 24px;
+        position-anchor: 0;
+    }
+
+    .filters {
+        justify-self: left;
+        border-right: 2px solid #f6b53d;       
+    }
 }
