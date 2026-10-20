@@ -4,13 +4,25 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #fdf9f9;
+}
+
+main {
+    margin-top: 53px;
+    border-top: 2px solid #f6b53d;
+    border-bottom: 2px solid #f6b53d;
+}
+
+nav {
+    border-top: 2px solid #f6b53d;
+    border-bottom: 2px solid #f6b53d;
 }
 
 .main-nav {
     color: #910826;
     display: flex;
     justify-content: right;
-    padding: 10px;
+    padding: 16px;
 }
 
 ul {
@@ -25,28 +37,44 @@ a {
 
 .filters {
     justify-self: right;
+    padding: 10px;
+    margin-right: 16px;
 }
 
 h1 {
     justify-self: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 10px;
+    padding: 16px;
 }
 
 h2 {
     color: #910826;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 10px;
+    padding: 16px;
 }
 
 .book-info {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 20px;
+    padding-top: 0;
+}
+
+img {
+    margin: auto;
+    max-width: 100%;
+    max-height: 250px;
+    width: auto;
+    height: auto;
 }
 
 footer {
     padding: 10px;
     justify-self: center;
+}
+
+.book-hook {
+    padding: 16px;
 }
 
 p {
