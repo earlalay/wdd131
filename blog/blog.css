@@ -91,20 +91,18 @@ p {
         justify-content: center;
     }
 
-    h1 {
+    .article-info {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        row-gap: 30px;
+    }
+
+    h1, .main-nav {
         padding: 24px;
     }
 
-    h2 {
+    h2, .book-hook {
         padding: 20px;
-    }
-
-    .book-hook {
-        padding: 20px;
-    }
-
-    .main-nav {
-        padding: 24px;
     }
 
     footer {
@@ -113,7 +111,24 @@ p {
     }
 
     .filters {
-        justify-self: left;
         border-right: 2px solid #f6b53d;       
+    }
+
+    div > p {
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 840px) {
+    .article-info {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 930px) {
+    .article-info {
+        width: 80%;
+        max-width: 970px;
     }
 }
