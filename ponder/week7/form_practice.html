@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="form_practice.js" defer></script>
+</head>
+<body>
+    <h1>Forms Demo</h1>
+    <form id="practiceform" action="" method="get">
+        <p>
+            <label for="fullname">Name</label>
+            <input id="fullname"
+                   type="text"
+                   name="fullname"
+                   placeholder="Enter your full name"
+                   required/>
+        </p>
+        <p>
+            <label for="dob">Date of Birth</label>
+            <input id="dob" type="date" name="dob"/>
+        </p>
+        <p>
+            <label for="state">State You Live In</label>
+            <select id="state" name="state">
+                <option value="">Choose State</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="ID">Idaho</option>
+            </select>
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="Enter Your Email"/>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Cancel</button>
+    </form>
+</body>
+</html>
