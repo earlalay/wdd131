@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Ticket Form</title>
-    <link rel="icon" href="favicon.png">
+    <link rel="icon" href="checkmark.png">
     <link rel="stylesheet" href="eventform.css">
     <script src="eventform.js" defer></script>
 </head>
@@ -39,8 +39,17 @@
                 <label for="eventDate">Event Date</label>
                 <input id="eventDate" name="eventDate" type="date" required />
             </div>
+            <div id="accessCodeContainer" class="field full" hidden>
+                <label for="accessCode">Access Code</label>
+                <input id="accessCode" name="accessCode" type="text" />
+            </div>
+            <div id="INumberContainer" class="field full" hidden>
+                <label for="studentINum">Student I#</label>
+                <input id="studentINum" name="studentINum" type="text" />
+            </div>
             <button class="full" type="submit">Create Ticket</button>
         </form>
+        <section id="output" aria-live="polite"></section>
     </main>
 </body>
 </html>

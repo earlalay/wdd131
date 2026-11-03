@@ -38,6 +38,10 @@ button {
     margin-top: 10px;
 }
 
+#accessCodeContainer[hidden], #INumberContainer[hidden] {
+    display: none;
+}
+
 button:hover {
     background-color: #84a6c4;
 }
