@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Card</title>
+    <link rel="stylesheet" href="charactercard.css">
+    <script src="charactercard.js" defer></script>
+
+    <!-- Open Graph (Facebook, LinkedIn, etc.) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Character Card">
+    <meta property="og:description" content="This is a character card with an image and stats, and you can change its health and level.">
+    <meta property="og:url" content="https://earlalay.github.io/wdd131/charactercard">
+    <meta property="og:image" content="https://yourURLofSocialPreviewImageHere.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Character Card">
+    <meta name="twitter:description" content="This is a character card with an image and stats, and you can change its health and level.">
+    <meta name="twitter:image" content="https://yourURLofSocialPreviewImageHere.png">
+
+    <!-- One favicon (ICO works everywhere) -->
+    <link rel="icon" href="images/characterCardFavicon.png">
+
+    <!-- One Apple Touch Icon (iOS home screen) -->
+    <link rel="apple-touch-icon" href="images/characterCardAppleTouch.png">
+</head>
+<body>
+    <main>
+        <div class="character-card">
+            <img id="character-img" src="">
+            <h1 id="character-name"></h1>
+            <div class="stats">
+                <p id="character-class"></p>
+                <p id="character-level"></p>
+                <p id="character-health"></p>
+            </div>
+            <button id="attacked">Attacked</button>
+            <button id="level-up">Level Up</button>
+        </div>
+    </main>
+</body>
+</html>
