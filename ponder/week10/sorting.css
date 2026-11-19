@@ -1,0 +1,9 @@
+.hike-card {
+    margin: 12px auto;
+    border: solid 2px #363674;
+    border-radius: 5px;
+}
+
+.hike-card * {
+    margin-left: 4px;
+}
